@@ -20,5 +20,12 @@ namespace vsgitmvcapp.Controllers
         {
             return Content("Hello");
         }
+        
+        
+        public ActionResult index2()
+        {
+        return Content("New Method Added index2");
+        }
+        
     }
 }
