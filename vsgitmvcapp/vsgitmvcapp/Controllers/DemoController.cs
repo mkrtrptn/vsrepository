@@ -10,6 +10,7 @@ namespace vsgitmvcapp.Controllers
     {
        // Updated from remotely
        // Update 2
+       // upfate from visual studio
         public ActionResult Index()
         {
             return View();
