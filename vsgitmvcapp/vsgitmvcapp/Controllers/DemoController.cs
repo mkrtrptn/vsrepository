@@ -31,10 +31,7 @@ namespace vsgitmvcapp.Controllers
         return Content("welcome Method");
         }
 
-        public ActionResult welcome()
-        {
-            return Content("Welcome Method");
-        }
+       
 
     }
 }
