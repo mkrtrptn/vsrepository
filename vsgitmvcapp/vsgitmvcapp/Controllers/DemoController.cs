@@ -15,5 +15,10 @@ namespace vsgitmvcapp.Controllers
         {
             return View();
         }
+
+        public ActionResult index1()
+        {
+            return Content("Hello");
+        }
     }
 }
