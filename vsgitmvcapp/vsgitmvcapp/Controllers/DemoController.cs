@@ -20,5 +20,12 @@ namespace vsgitmvcapp.Controllers
         {
             return Content("Hello");
         }
+
+        public ActionResult store()
+        {
+          return RedirectToAction("index1","Demo");
+        }
+
+
     }
 }
