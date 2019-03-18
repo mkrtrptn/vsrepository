@@ -26,6 +26,10 @@ namespace vsgitmvcapp.Controllers
           return RedirectToAction("index1","Demo");
         }
 
+        public ActionResult welcome()
+        {
+            return Content("Welcome Method");
+        }
 
     }
 }
