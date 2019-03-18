@@ -30,10 +30,7 @@ namespace vsgitmvcapp.Controllers
         {
             return Content("Welcome Method");
         }
-        public ActionResult welcome()
-        {
-        return Content("welcome Method");
-        }
+      
 
 
     }
